@@ -1,0 +1,255 @@
+.main__header{
+    width: 100vw;
+    height:70vh;
+    display: grid;
+    place-items: center;
+    margin-top:5rem;
+
+}
+.main__header-container{
+    height:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.main__header-left{
+    margin-top: -10rem;
+}
+
+.main__header-left h4{
+    margin-bottom: 0.5rem;
+    color:var(--color-secondary);
+    font-weight: 400;
+}
+
+.main__header-left p{
+    margin: 1rem 0  2.5rem;
+    font-size: 1.1rem;
+}
+
+.main__header-right{
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin-top: -8rem;
+}
+/*.main__header-circle{
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(75deg,var(--color-gray-100),transparent);
+    border-radius:50%;
+    position: absolute;
+    filter:blur(10px);
+}*/
+
+.main__header-image{
+    position: relative;
+}
+
+/*.main__header:hover.main__header-circle{
+    filter:blur(15px);
+}*/
+
+
+/*===Programs===*/
+
+.programs{
+    margin-top: -7rem;
+
+}
+.programs__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+
+}
+
+.programs__program a{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.programs__program:hover a{
+    background: var(--color-secondary);
+    color:var(--color-gray-600);
+}
+
+/*====FAQS==*/
+.faqs{
+    margin-top: 2.5rem;
+}
+
+
+.faqs__wrapper{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 5rem;
+    align-items: flex-start;
+}
+
+.faq{
+    background:var(--color-gray-500);
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor:pointer;
+}
+
+.faq div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq__icon{
+    background: transparent;
+    color: var(--color-gray-100);
+    font-size: 1.5rem;
+}
+
+.faq p{
+    margin-top: 1.5rem;
+}
+
+/*---FOOTER----*/
+footer{
+    background: var(--color-primary);
+    margin-top:12rem;
+    padding-top:5rem;
+    font-size: 1.2rem;
+    color:var(--color-gray-100);
+   
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap:rem;
+    
+   
+}
+
+.footer__container article{
+    display:flex;
+    flex-direction:column ;
+    align-items: flex-start;
+    gap:0.7rem;
+}
+.footer__container article p{
+    margin-top:0.5rem;
+}
+
+.footer__container article h4{
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+.footer__socials{
+    margin-top: 1.5rem;
+    display: flex;
+    gap:1rem;
+    align-items:center;
+}
+.footer__socials a{
+    background:var(--color-gray-100) ;
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius:0.6rem;
+    transition: var(--transition);
+}
+
+.footer__socials a svg{
+    color:var(--color-gray-600);
+}
+.footer__socials a:hover{
+    border-color:var(--color-gray-100);
+    background:transparent;
+
+}
+
+.footer__copyright{
+    color:var(--color-gray-100);
+    text-align:center;
+    padding:1.5rem 0;
+    border-top: 2px solid var(--color-primary);
+    
+}
+
+/**MEDIA QUERIES**/
+@media screen and (max-width: 1024px){
+/*MAIN HEADER*/
+  .main__header{
+    height: fit-content;
+    padding: 12rem 0;
+  }
+  .main__header-container{
+    gap:0;
+  }
+
+  /*PROGRAMS*/
+  .programs__wrapper{
+    grid-template-columns: 1fr 1fr;
+
+  }
+   /*FAQS*/
+   .faqs__wrapper{
+    grid-template-columns: 1fr;
+   }
+   /*FOOTER*/
+   .footer__container{
+    grid-template-columns: 1fr 1fr;
+    gap:4rem;
+
+   }
+}
+/*MEDIA QUERIES FOR SMALL SCREENS*/
+@media screen and (max-width: 600px){
+    /*MAIN HEADER*/
+  .main__header{
+   margin-top: 0;
+   padding:12rem 0 0;
+   height:100vh;
+  }
+  .main__header-image{
+   display: none;
+  }
+  .main__header-container{
+    grid-template-columns: 1fr;
+  }
+
+  /*PROGRAMS*/
+  .programs__wrapper{
+    grid-template-columns: 1fr ;
+    gap:2rem;
+    margin-top: 3rem;
+}
+.programs__program{
+    width: 84%;
+    margin: 0 auto;
+
+}
+   /*FAQS*/
+   .faqs__wrapper{
+    gap:1rem;
+    margin-top: 3rem;
+   }
+   /*FOOTER*/
+   .footer{
+    margin-top: 7rem;
+ }
+ .footer__container{
+    grid-template-columns: 1fr;
+    gap:3rem;
+}
+.footer__container article{
+
+    align-items: center;
+}
+.footer__container article p{
+    align-items: center;
+}
+}
