@@ -3,6 +3,7 @@ import{FaHandshake} from 'react-icons/fa'
 import {GiFlowerEmblem} from 'react-icons/gi'
 import {SiOpenaigym} from 'react-icons/si'
 import {FaDollarSign} from 'react-icons/fa'
+
 export const links = [
     {
         name:"Home",
@@ -95,23 +96,184 @@ export const values = [
 export const faqs=[
     {
         id:1,
-        question:"Which steel is good?",
-        answer:"That's all about our opinion we go."
+        question:"What is a Steel Grade?",
+        answer:"A “Steel Grade” is a defined chemistry that has been made and processed in a particular way.  (A Standard specifies away of doing something.  It might be a test method, a packaging method, or a delivery protocol.) ASTM Grades meet the exacting standards for specific grades of steel developed by the American Society for Testing and Materials.  The standards include mechanical properties and steel chemistries and specify the testing methods to be used. For some grades, additional steelmaking and thermal processing is also specified.  You can be confident that these steel plates will meet your customers expectations."
     },
     {
         id:2,
-        question:"Will color sheets provides cooling to the building?",
-        answer:"Yes,it does."
+        question:"What do Steel Grade Numbers Mean?",
+        answer:"For SAE/ASTM 10XX steels, the last two numbers are the approximate carbon content. For example, 1008 steel contains about 0.08% carbon and 1018 steel contains about 0.18% carbon."
     },
     {
         id:3,
-        question:"Readymade doors?",
-        answer:"Yes,it available."
+        question:"How to choose the best roofing sheet for house in 2023?",
+        answer:"Metal roofing sheets are the most inexpensive option, while corrugated roof sheets are extremely durable. Plastic roofing sheets are lightweight, while polycarbonate sheets are transparent and apt for outdoor use. Hence the best sheet will depend on the individual requirement and budget."
     },
     {
         id:4,
-        question:"Readymade windows?",
-        answer:"Yes,it available."
+        question:"What roofing material is best for hot climates?",
+        answer:"When it comes to homes in hot climates, the best roof types are metal, slate, clay, or rubber shingles."
+    },
+    {
+        id:5,
+        question:"What colour is most popular for roofs today?",
+        answer:"One of the most popular colours to use today is grey siding."
+    },
+    {
+        id:6,
+        question:"How are engineered wood doors different from hardwood?",
+        answer:"Hardwood doors are made from planks of real wood, which makes them vulnerable to warping and cracking over time. Engineered wood doors have a completely different construction. They generally comprise of a solid core around which there are multiple layers of wood, and UV Lacquer and polishing line is used in the process. The end product, therefore, is much more durable than traditional hardwood doors."
     },
 
+
+]
+
+// export const shop = [
+//     {
+//         id: 1,
+//         product_name: "Rayes Alpha",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 350,
+//         currency: "$",
+//         thumb: "./images/1.png"
+//     },
+//     {
+//         id: 2,
+//         product_name: "Rayes Z30",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 250,
+//         currency: "$",
+//         thumb: "./images/2.png"
+//     },
+//     {
+//         id: 3,
+//         product_name: "Rayes X30",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 350,
+//         currency: "$",
+//         thumb: "./images/3.png"
+//     },
+//     {
+//         id: 4,
+//         product_name: "Rayes Alpha",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 350,
+//         currency: "$",
+//         thumb: "./images/1.png"
+//     },
+//     {
+//         id: 5,
+//         product_name: "Rayes Z30",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 250,
+//         currency: "$",
+//         thumb: "./images/2.png"
+//     },
+//     {
+//         id: 6,
+//         product_name: "Rayes X30",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 350,
+//         currency: "$",
+//         thumb: "./images/3.png"
+//     },
+//     {
+//         id: 7,
+//         product_name: "Rayes Alpha",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 350,
+//         currency: "$",
+//         thumb: "./images/1.png"
+//     },
+//     {
+//         id: 8,
+//         product_name: "Rayes Z30",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 250,
+//         currency: "$",
+//         thumb: "./images/2.png"
+//     },
+//     {
+//         id: 9,
+//         product_name: "Rayes X30",
+//         description: "Hands-free, Hads-on Mushc Experience",
+//         price: 350,
+//         currency: "$",
+//         thumb: "./images/3.png"
+//     },
+// ]
+
+export const product_card = [
+    {
+        id: 1,
+        product_name: "Rayes Alpha",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 350,
+        currency: "$",
+        thumb: "./images/1.png"
+    },
+    {
+        id: 2,
+        product_name: "Rayes Z30",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 250,
+        currency: "$",
+        thumb: "./images/2.png"
+    },
+    {
+        id: 3,
+        product_name: "Rayes X30",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 350,
+        currency: "$",
+        thumb: "./images/3.png"
+    },
+    {
+        id: 4,
+        product_name: "Rayes Alpha",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 350,
+        currency: "$",
+        thumb: "./images/1.png"
+    },
+    {
+        id: 5,
+        product_name: "Rayes Z30",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 250,
+        currency: "$",
+        thumb: "./images/2.png"
+    },
+    {
+        id: 6,
+        product_name: "Rayes X30",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 350,
+        currency: "$",
+        thumb: "./images/3.png"
+    },
+    {
+        id: 7,
+        product_name: "Rayes Alpha",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 350,
+        currency: "$",
+        thumb: "./images/1.png"
+    },
+    {
+        id: 8,
+        product_name: "Rayes Z30",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 250,
+        currency: "$",
+        thumb: "./images/2.png"
+    },
+    {
+        id: 9,
+        product_name: "Rayes X30",
+        description: "Hands-free, Hads-on Mushc Experience",
+        price: 350,
+        currency: "$",
+        thumb: "./images/3.png"
+    }
 ]

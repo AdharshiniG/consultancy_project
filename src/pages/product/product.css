@@ -1,3 +1,6 @@
+.gallery__containerh{
+    text-align: center;
+}
 .gallery__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,6 +12,10 @@
 
 .gallery__container article:hover{
     border-color: var(--color-gray-500);
+}
+.gallery__containerbtn{
+   padding-top: 1.2rem;
+    text-align: center;
 }
 
 /*media queries (medium screen)*/

@@ -1,4 +1,4 @@
-import './shop.css'
+import React from 'react'
 
 const Shop = () => {
   return (

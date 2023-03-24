@@ -1,5 +1,7 @@
-import Header from '../../components/Header'
-import background from '../../images/background.jpg'
+/*import Header from '../../components/Header'*/
+import { Link } from 'react-router-dom';
+import {IoIosCart} from 'react-icons/io'
+/*import background from '../../images/background.jpg'*/
 import './product.css'
 
 const Product = () => {
@@ -11,11 +13,17 @@ const Product = () => {
 
   return (
    <>
-   <Header title="Our Products" image={background}>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam itaque saepe, quam veniam error sequi in iste aliquam animi dignissimos ducimus dolore facere, corporis quidem consequatur mollitia illo assumenda quas.
-   </Header>
+   {/* <Header title="Our Products" image={background}>
+    The below gallery of our store products.
+    <button className="container-md"></button>
+   </Header> */}
+
    <section className="gallery">
+    <div className='container gallery__containerh'>
+   <h1>Our Products</h1>
+   </div>
    <div className="container gallery__container">
+ 
           {
             images.map((image, index) => {
               return <article key={index}>
@@ -24,6 +32,9 @@ const Product = () => {
 
             })
           }
+   </div>
+   <div className='container gallery__containerbtn'>
+   <Link to="/shop" className='btn lg'>Buy Now <IoIosCart/></Link>
    </div>
    </section>
    </>

@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import Logo from  '../images/logo.png'
+import Logo from  '../images/logo1.png'
 import { FaFacebook } from 'react-icons/fa'
 import { AiOutlineWhatsApp } from 'react-icons/ai'
 import { AiFillInstagram } from 'react-icons/ai'
@@ -11,16 +11,11 @@ const Footer = () => {
                 <Link to="/">
                     <img src={Logo} widtht="1px" heihgt="1px" alt="FooterLogo"/>
                 </Link>
-                <p>
+                {/* <p>
                    498,Bazar Street,<br></br>
                     Koduveerampalayam,<br></br>Sathyamangalam,<br></br>Tamil Nadu
-                 </p>
-                <div className="footer__socials">
-                    <a href="https://facebook.com" target="_blank" rel='noreferrer opener'><FaFacebook/></a>
-                    <a href="https://whatsapp.com" target="_blank" rel='noreferrer opener'><AiOutlineWhatsApp/></a>
-                    <a href="https://instagram.com" target="_blank" rel='noreferrer opener'><AiFillInstagram/></a>
-                </div>
-            </article>
+                 </p> */}
+                </article>
 
             <article>
                 <h4>Permalinks</h4>
@@ -43,7 +38,11 @@ const Footer = () => {
                 <h4>Get In Touch</h4>
                 <Link to="/contact">Contact Us</Link>
                 <Link to="/s">Support</Link>
-                
+                <div className="footer__socials">
+                    <a href="https://facebook.com" target="_blank" rel='noreferrer opener'><FaFacebook/></a>
+                    <a href="https://whatsapp.com" target="_blank" rel='noreferrer opener'><AiOutlineWhatsApp/></a>
+                    <a href="https://instagram.com" target="_blank" rel='noreferrer opener'><AiFillInstagram/></a>
+                </div>
             </article>
         </div>
         <div className="footer__copyright">

@@ -118,8 +118,8 @@
 /*---FOOTER----*/
 footer{
     background: var(--color-primary);
-    margin-top:12rem;
-    padding-top:5rem;
+    margin-top:5rem;
+    padding-top:1.8rem;
     font-size: 1.2rem;
     color:var(--color-gray-100);
    
@@ -173,8 +173,9 @@ footer{
 
 .footer__copyright{
     color:var(--color-gray-100);
+    /*background: var(--color-gray-600);*/
     text-align:center;
-    padding:1.5rem 0;
+    padding:1.0rem 0;
     border-top: 2px solid var(--color-primary);
     
 }
